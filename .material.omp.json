@@ -1,0 +1,89 @@
+{
+  "final_space": true,
+  "osc99": false,
+  "console_title": false,
+  "console_title_style": "",
+  "console_title_template": "",
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "horizontal_offset": 0,
+      "vertical_offset": 0,
+      "segments": [
+        {
+          "type": "exit",
+          "style": "plain",
+          "powerline_symbol": "",
+          "invert_powerline": false,
+          "foreground": "",
+          "foreground_templates": null,
+          "background": "",
+          "background_templates": null,
+          "leading_diamond": "",
+          "trailing_diamond": "",
+          "properties": {
+            "always_enabled": true,
+            "display_exit_code": false,
+            "error_icon": "\u003c#F5222D\u003e❯\u003c/\u003e",
+            "success_icon": "\u003c#2979FF\u003e❯\u003c/\u003e",
+            "prefix": "",
+            "postfix": " "
+          }
+        },
+        {
+          "type": "path",
+          "style": "plain",
+          "powerline_symbol": "",
+          "invert_powerline": false,
+          "foreground": "#56B6C2",
+          "foreground_templates": null,
+          "background": "",
+          "background_templates": null,
+          "leading_diamond": "",
+          "trailing_diamond": "",
+          "properties": {
+            "style": "folder",
+            "prefix": "",
+            "postfix": " "
+          }
+        },
+        {
+          "type": "git",
+          "style": "plain",
+          "powerline_symbol": "",
+          "invert_powerline": false,
+          "foreground": "#DA70D6",
+          "foreground_templates": null,
+          "background": "",
+          "background_templates": null,
+          "leading_diamond": "",
+          "trailing_diamond": "",
+          "properties": {
+            "display_status": true,
+            "tag_icon": "\uF412 ",
+            "prefix": "\u003c#5FAAE8\u003egit:(\u003c/\u003e",
+            "postfix": "\u003c#5FAAE8\u003e) \u003c/\u003e"
+          }
+        },
+        {
+          "type": "text",
+          "style": "plain",
+          "powerline_symbol": "",
+          "invert_powerline": false,
+          "foreground": "",
+          "foreground_templates": null,
+          "background": "",
+          "background_templates": null,
+          "leading_diamond": "",
+          "trailing_diamond": "",
+          "properties": {
+            "prefix": "",
+            "postfix": "",
+            "text": "\u003c#2962FF\u003e❯\u003c/\u003e\u003c#2979FF\u003e❯\u003c/\u003e\u003c#448AFF\u003e❯\u003c/\u003e"
+          }
+        }
+      ]
+    }
+  ]
+}
